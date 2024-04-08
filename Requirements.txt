@@ -1,0 +1,22 @@
+Code tested on python 3.6.0
+
+pip install following
+
+flask
+tensorflow==1.14
+keras==2.2.5
+protobuf==3.6.0
+pyttsx3
+
+
+When using flask
+model._make_predict_function() #add this line after loading pretrained model
+
+--------------Tested on Following Conditions----------------------
+background: White
+L-H = 0
+L-S = 0
+L-V = 32
+U-H = 179
+U-S = 255
+U-V = 138
