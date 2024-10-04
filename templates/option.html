@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="option">
+  <h1>Select Location</h1>
+  <form action="" method="post">
+    <input list="Scenario" name="scen">
+    <datalist id="Scenario">
+    <option value="College">
+    <option value="Home">
+    <option value="Airport">
+    <option value="Office">
+    <option value="Restaurant">
+    </datalist>
+    <input type="submit">
+  </form>
+</div>
+ {% endblock %}

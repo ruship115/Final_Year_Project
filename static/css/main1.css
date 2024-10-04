@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    background-image: url("/static/images/sign.jpg");
+  }
+  /*
+   * Formatting the header area
+   */
+  header {
+    background-color: rgb(12, 238, 50);
+    height: 60px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 30px;
+  }
+  header h1.projectName {
+    margin: 15px;
+    font-size: 2em;
+    color: #fff;
+    text-transform:capitalize;
+    float:left;
+    margin-left: 300px;    
+  }
+  
+  /*
+   * Centering the body content
+   */
+  .container {
+    width: 1200px;
+    margin: 0px;
+  }
+  div.login {
+    margin-left: 450px;
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgreen;
+    opacity: 0.8;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  div.option {
+    margin-left:500px;
+    margin-top: 170px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    background-color: lightgreen;
+    opacity: 0.8;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  div.login h1{
+    font-size: 2em;
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+
+  div.login input[type=text]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: -20px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -2px; 
+  }
+
+  div.login input[type=password]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: -2px; 
+  }
+
+  div.login input[type=submit]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: 20px;
+    margin-left: 60px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 200px;
+  }
+
+  div.option input[name=scen]{
+    font-size: 1.5em;
+    color:black;
+    margin-top: -10px;
+    margin-left: 10px;
+    justify-content: center;;
+    text-align: center;
+    letter-spacing: -2px; 
+    width: 150px;
+  }
+
+  div.option input[type=submit]{
+    font-size: 1.5em;
+    color:black;
+    letter-spacing: -2px; 
+    width: 100px;
+  }
+
+  div.gesture h1{
+    text-align: center;
+  }
+
+
+
